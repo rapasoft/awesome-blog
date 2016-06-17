@@ -15,13 +15,14 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.3.5.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <springfox.version>2.3.1</springfox.version>
+        <springloaded.version>1.2.6.RELEASE</springloaded.version>
         <hsqldb.version>2.3.3</hsqldb.version>
         <lombok.version>1.16.8</lombok.version>
         <frontend-maven-plugin.version>0.0.28</frontend-maven-plugin.version>
@@ -186,7 +187,7 @@
                     <dependency>
                         <groupId>org.springframework</groupId>
                         <artifactId>springloaded</artifactId>
-                        <version>1.2.0.RELEASE</version>
+                        <version>${springloaded.version}</version>
                     </dependency>
                 </dependencies>
             </plugin>
