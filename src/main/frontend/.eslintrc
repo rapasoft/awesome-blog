@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "describe": false,
+    "context": false,
+    "before": false,
+    "beforeEach": false,
+    "after": false,
+    "afterEach": false,
+    "it": false,
+    "expect": false
+  },
+  "plugins": [
+    "react",
+    "mocha"
+  ],
+  "rules": {
+    "no-console": 0,
+    "no-underscore-dangle": 1,
+    "quotes": [
+      2,
+      "single"
+    ],
+    "mocha/no-exclusive-tests": 2
+  }
+}

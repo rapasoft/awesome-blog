@@ -1,7 +1,7 @@
-import TestUtils from "react-addons-test-utils";
-import Main from "../../components/main";
-import React from "react";
-import {expect} from "chai";
+import TestUtils from 'react-addons-test-utils';
+import Main from '../../components/main';
+import React from 'react';
+import {expect} from 'chai';
 
 describe('Main', () => {
 
