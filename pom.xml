@@ -127,6 +127,16 @@
                                 </configuration>
                             </execution>
                             <execution>
+                                <id>npm run test:lint</id>
+                                <goals>
+                                    <goal>npm</goal>
+                                </goals>
+                                <configuration>
+                                    <arguments>run test:lint</arguments>
+                                    <installDirectory>target</installDirectory>
+                                </configuration>
+                            </execution>
+                            <execution>
                                 <id>npm test</id>
                                 <goals>
                                     <goal>npm</goal>
