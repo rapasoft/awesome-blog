@@ -10,9 +10,22 @@ This is a skeleton application you'll be starting with in the workshop. You'll d
 you need to know it well.
 * Patience and pro-learning attitude :)
 
+## Further advices
+* Do have `mvn`, `java`, `npm`, `git` commands available on global `PATH`
+* On Windows,
+    * have project files within [short directory path](http://stackoverflow.com/questions/1880321/why-does-the-260-character-path-length-limit-exist-in-windows) (e.g. `C:\dev\work`)
+    * use Git Bash for command line
+* Ask questions if you don't understand something, wait for discussion if you have some comments or opinions
+
+## Obtaining the code
+
+Go to [Itera Gitlab](http://gitlab.intra.itera.no/pavol.rajzak/spring-boot-react-workshop) and copy repository url. Then clone it using Git Bash (or in IDE):
+
+`git clone http://gitlab.intra.itera.no/pavol.rajzak/spring-boot-react-workshop.git`
+
 ## Building and running the application
 
-Simply put, to build everything just run:
+Simply put, to build everything just run this command in the root directory (with pom.xml)
 
 `mvn clean package -Pbuild-frontend`
 
@@ -28,11 +41,13 @@ To build backend only run:
 
 ### Frontend only
 
-In frontend directory (`cd src/main/frontend`) execute:
+In frontend directory (`cd <ROOT>/src/main/frontend`) execute:
 
 `npm start`
 
-to run the webpack-dev-server. This will start frontend app in development mode with hot-reloading capabilities. 
+to run the `webpack-dev-server`. This will start frontend app in development mode with hot-reloading capabilities.
 To build frontend as production-ready bundle run:
 
 `npm run build`
+
+This command is however executed when maven builds the whole project (using `build-frontend` profile).
