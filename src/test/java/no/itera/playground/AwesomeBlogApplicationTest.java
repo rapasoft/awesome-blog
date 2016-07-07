@@ -9,7 +9,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = AwesomeBlogApplication.class)
 @WebAppConfiguration
-public class AwesomeBlogApplicationTests {
+public class AwesomeBlogApplicationTest {
 
     @Test
     public void contextLoads() {
