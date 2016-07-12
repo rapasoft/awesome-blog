@@ -10,7 +10,7 @@ describe('Main', () => {
 
     const heading = TestUtils.findRenderedDOMComponentWithTag(main, 'h1');
 
-    expect(heading.innerText).to.be.eq('Working on it!');
+    expect(heading.innerText).to.be.eq('List of current blog posts');
   });
 
 });
