@@ -26,6 +26,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
         http
                 .addFilterBefore(tokenAuthenticationFilter, BasicAuthenticationFilter.class)
                 .addFilterBefore(corsFilter, BasicAuthenticationFilter.class)
+
                 .authorizeRequests()
                 .antMatchers("/token").permitAll()
                 .antMatchers(HttpMethod.GET, "/post").permitAll()
