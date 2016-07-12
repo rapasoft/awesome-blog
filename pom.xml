@@ -171,7 +171,7 @@
                                     <goal>copy-resources</goal>
                                 </goals>
                                 <configuration>
-                                    <outputDirectory>${basedir}/target/classes/static</outputDirectory>
+                                    <outputDirectory>${basedir}/target/classes/public</outputDirectory>
                                     <resources>
                                         <resource>
                                             <directory>src/main/frontend/build</directory>
