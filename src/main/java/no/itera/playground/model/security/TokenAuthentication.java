@@ -16,12 +16,7 @@ public class TokenAuthentication implements Authentication {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return Collections.singletonList((GrantedAuthority) new GrantedAuthority() {
-            @Override
-            public String getAuthority() {
-                return "blogger";
-            }
-        });
+        return Collections.singletonList((GrantedAuthority) (GrantedAuthority) () -> "blogger");
     }
 
     @Override
@@ -36,12 +31,7 @@ public class TokenAuthentication implements Authentication {
 
     @Override
     public Object getPrincipal() {
-        return new Principal() {
-            @Override
-            public String getName() {
-                return "blog-user";
-            }
-        };
+        return (Principal) () -> "blog-user";
     }
 
     @Override

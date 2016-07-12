@@ -12,6 +12,7 @@ export default class Main extends React.Component {
       posts: []
     };
     this.fetchToken();
+    this.fetchPosts();
   }
 
   fetchToken() {
@@ -24,7 +25,6 @@ export default class Main extends React.Component {
       .set('Accept', 'text/plain')
       .end((err, res) => {
         this.setState({token: res.text});
-        this.fetchPosts();
       });
   }
 
