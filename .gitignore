@@ -5,7 +5,7 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea
+.idea/
 .idea/**
 
 ## File-based project format:
