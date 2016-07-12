@@ -16,7 +16,8 @@
     "after": false,
     "afterEach": false,
     "it": false,
-    "expect": false
+    "expect": false,
+    "request": false
   },
   "plugins": [
     "react",
