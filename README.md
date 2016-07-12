@@ -50,4 +50,21 @@ To build frontend as production-ready bundle run:
 
 `npm run build`
 
-This command is however executed when maven builds the whole project (using `build-frontend` profile).
+This command is however executed when maven builds the whole project (using `build-frontend` profile),
+so you should use it only on rare occasions.
+
+## Further information and links
+
+* [CubeDrone's extremely accurate history of JavaScript (comic)](http://cube-drone.com/comics/c/relentless-persistence)
+* [Richardson maturity model](http://martinfowler.com/articles/richardsonMaturityModel.html)
+* [Spring Boot reference guide](http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
+* [React.js user guide](https://facebook.github.io/react/docs/getting-started.html)
+* [New ES6 features](https://github.com/lukehoban/es6features)
+* [JSX gotcha's](https://facebook.github.io/react/docs/jsx-gotchas.html)
+* [Paypal's REST API design guide](https://github.com/paypal/api-standards/blob/master/api-style-guide.md)
+* [♥ Facebook page of Itera Slovakia ♥](https://www.facebook.com/IteraSlovakia)
+
+### Useful tools
+
+* [Postman Chrome extension](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
+* [React Developer Tools Chrome extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
