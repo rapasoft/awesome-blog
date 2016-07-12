@@ -38,6 +38,8 @@ public class TokenAuthenticationFilter implements Filter {
             authentication.setAuthenticated(true);
 
             SecurityContextHolder.getContext().setAuthentication(authentication);
+        } else {
+            SecurityContextHolder.getContext().setAuthentication(null);
         }
 
         filterChain.doFilter(servletRequest, servletResponse);
